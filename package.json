@@ -1,0 +1,24 @@
+{
+  "name": "pubver",
+  "description": "A utility for publishing changes to an npm module while simultaneously creating a corresponding git tag",
+  "version": "0.0.1",
+  "author": "Court Ewing <court@epixa.com>",
+  "keywords": [
+    "cli", "npm", "publish", "utility", "git", "tag", "pubver"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/epixa/pubver"
+  },
+  "main": "index",
+  "bin": {
+    "pubver": "./bin/pubver-cli.js"
+  },
+  "dependencies": {
+    "npm": "1.3.x",
+    "gitteh": "0.17.2",
+    "q": "0.9.x",
+    "colorful": "2.1.x",
+    "commander": "1.2.x"
+  }
+}
